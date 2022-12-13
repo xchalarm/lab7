@@ -1,4 +1,5 @@
-int adiff(int a,int b){
+int adiff(int a,int b)
+{
   int c;
   a %= 360,b %= 360;
   if (a<0){a += 360;}
